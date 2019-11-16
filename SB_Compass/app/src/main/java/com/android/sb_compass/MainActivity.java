@@ -12,6 +12,11 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
+    //
+    // taken from: https://www.techrepublic.com/article/pro-tip-create-your-own-magnetic-compass-using-androids-internal-sensors/
+    // Tech Republic - Pro Tip: Create Your Own Magnetic Compass Using Android's Internal Sensors
+    //
+
     private ImageView mPointer;
     private SensorManager mSensorManager;
     private Sensor mAccelerometer;
